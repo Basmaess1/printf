@@ -12,7 +12,7 @@ OBJECTS = $(SOURCES:.c=.o)
 all: $(NAME)
 
 $(NAME): $(OBJECTS)
-	ar -rsc $(NAME) $(OBJECTS)
+	ar rcs $(NAME) $(OBJECTS)
 
 #clean
 
